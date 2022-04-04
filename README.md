@@ -11,8 +11,8 @@ If you want to test out the application you can use the GraphiQL UI located at h
 
 ## Packaging 
 
-When you run mvn clean package the frontend Vue application will built in the dist directory. The Maven plugin 
-maven-resources-plugin will copy the contents of the build directory into /target/static/classes. Once the artifact
-has been created you can run the application using the following command: 
+When you run `mvn clean package` command the frontend Vue application will be built into the `/dist` directory. 
+The Maven plugin maven-resources-plugin will copy the contents of the build directory into `/target/static/classes`. 
+Once the artifact has been created you can run the application using the following command: 
 
 ` java -jar target/spring-books-0.0.1-SNAPSHOT.jar`
