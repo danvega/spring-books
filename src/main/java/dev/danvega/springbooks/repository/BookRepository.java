@@ -12,7 +12,6 @@ import java.util.List;
 public class BookRepository {
 
     private final AuthorRepository authorRepository;
-
     private List<Book> books = new ArrayList<>();
 
     public BookRepository(AuthorRepository authorRepository) {
